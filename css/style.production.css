@@ -231,15 +231,28 @@ a {
 /* contact.html */
 
 .contact-form {
-  padding-top: 30px;
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+  max-width: 250px;
+  background-color: lightgrey;
 }
 
 input:focus {
   background-color: lightblue;
 }
 
+input[type=email] {
+  width: 100%;
+}
+
+input[type=tel] {
+  width: 100%;
+}
+
 input[type=submit] {
   /* border: none; */
+
   background-color: #357b70;
   font-family: inherit;
   border-radius: 10px;

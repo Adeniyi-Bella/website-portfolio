@@ -50,7 +50,7 @@ h3 {
 }
 
 .page-header__item {
-  height: 50px;
+  /* height: 50px; */
   width: 50px;
   flex: 0 1 200px;
 }
@@ -93,7 +93,7 @@ a {
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.5;
-  padding: 80px;
+  padding: 70px;
 }
 
 .profile__portrait {
@@ -131,6 +131,10 @@ a {
 
 .paragraph-footer {
   margin: 0;
+}
+
+.social-media {
+  padding: 10px;
 }
 
 /* About page  */
@@ -200,15 +204,28 @@ a {
 /* contact.html */
 
 .contact-form {
-  padding-top: 30px;
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+  max-width: 250px;
+  background-color: lightgrey;
 }
 
 input:focus {
   background-color: lightblue;
 }
 
+input[type=email] {
+  width: 100%;
+}
+
+input[type=tel] {
+  width: 100%;
+}
+
 input[type=submit] {
   /* border: none; */
+
   background-color: #357b70;
   font-family: inherit;
   border-radius: 10px;

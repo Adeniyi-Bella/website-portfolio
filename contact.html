@@ -41,24 +41,27 @@
     <div class="contact-form">
         <form action="#" method="post" id="contact-form">
             <script>document.querySelector("form").setAttribute("action", "")</script>
-            <label class="standard-label" for="contact-email">Email: </label>
-            <input type="email" id="contact-email" required>
+            <p>
+                <label class="standard-label" for="contact-email">Email: </label>
 
-            <label class="standard-label" for="contact-mobile-number">Telephone: </label>
-            <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-mobile-number">
-
+                <input type="email" id="contact-email" required>
+            </p>
+            <p>
+                <label class="standard-label" for="contact-mobile-number">Telephone: </label>
+                <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-mobile-number">
+            </p>
             <label class="standard-label" for="message">Message: </label>
             <textarea required maxlength="240" id="message"></textarea>
             <input type="submit" value="Send message">
         </form>
     </div>
 
-    <footer>
+    <footer class="contact-form">
         <p>
             Contact me on
         </p>
         <div>
-            Telephone: <a href="tel:+491234567" aria-label="mobile-number">+49 1234567</a><br>
+            Telephone: <a href="tel:+491234567" aria-label="mobile-number">+49 12345678985</a><br>
             Email: <a href="mailto:adeniyibella@gmail.com">adeniyibella(at)gmail(dot)com</a><br>
             <a href="mailto:adeniyibella@gmail.com">Contact me</a>
         </div>
