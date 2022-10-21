@@ -156,14 +156,21 @@ header {
 }
 
 .home-img {
-  width: 180px;
-  height: 180px;
+  width: 280px;
+  height: 280px;
   object-fit: cover;
   object-position: center;
 }
 
 .prof-img {
   width: 100%;
+  position: relative;
+  top: -100px;
+}
+
+.tractor-svg {
+  align-items: center;
+  text-align: center;
 }
 
 .home-text {
@@ -231,6 +238,32 @@ header {
 .social .bx:hover {
   background: var(--main-color);
   transition: 0.3s all linear;
+}
+
+/* About Section */
+.home-page-svg {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+#Capa_1 {
+  width: 250px;
+  height: 180px;
+  background: var(--bg-color);
+}
+
+@keyframes swinging {
+  0% { transform: rotate(10deg); }
+  50% { transform: rotate(-5deg); }
+  100% { transform: rotate(10deg); }
+}
+
+.swingimage {
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+  animation: swinging 3.5s ease-in-out forwards infinite;
 }
 
 /* About */
@@ -555,7 +588,8 @@ header {
 
 @media (max-width: 600px) {
   .services-content,
-  .portfolio-content {
+  .portfolio-content,
+  .home-page-svg {
     grid-template-columns: 1fr;
   }
 }
