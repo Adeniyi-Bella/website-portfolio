@@ -236,7 +236,7 @@ header {
 }
 
 .social .bx:hover {
-  background: var(--main-color);
+  background: aliceblue;
   transition: 0.3s all linear;
 }
 
