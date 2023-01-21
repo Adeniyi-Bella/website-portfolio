@@ -11,7 +11,6 @@ menu.onscroll = () => {
     menu.classList.remove("move");
 };
 
-
 // Email Js
 function validate() {
     let name = <HTMLInputElement> document.querySelector('.name')
@@ -19,9 +18,6 @@ function validate() {
     let msg =<HTMLInputElement> document.querySelector('.message')
     let sendBtn =<HTMLInputElement> document.querySelector('.send-btn')
 
-    // name = {
-    //     value: string
-    // }
     sendBtn.addEventListener('click', (e) => {
         e.preventDefault()
         if (name.value == "" || email.value == "" || msg.value == "") {
@@ -47,7 +43,16 @@ function emptyerror():void {
       });
 }
 
-function sendmail(name:string,email:string,msg:string) {
+class emailj {
+    name ="";
+    template="";
+     send(name: string, template:string, {} ){  
+        this.name = name;
+        this.template=template;
+    }
+}
+function sendmail(name:string,email:string,msg:string):void {
+    let emailjs = new emailj;
     emailjs.send("service_v50tiwg","template_xn5klag",{
         to_name: name,
         from_name: email,

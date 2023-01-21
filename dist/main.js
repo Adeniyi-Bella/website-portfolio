@@ -15,9 +15,6 @@ function validate() {
     let email = document.querySelector('.email');
     let msg = document.querySelector('.message');
     let sendBtn = document.querySelector('.send-btn');
-    // name = {
-    //     value: string
-    // }
     sendBtn.addEventListener('click', (e) => {
         e.preventDefault();
         if (name.value == "" || email.value == "" || msg.value == "") {
@@ -40,7 +37,18 @@ function emptyerror() {
         icon: "error",
     });
 }
+class emailj {
+    constructor() {
+        this.name = "";
+        this.template = "";
+    }
+    send(name, template, {}) {
+        this.name = name;
+        this.template = template;
+    }
+}
 function sendmail(name, email, msg) {
+    let emailjs = new emailj;
     emailjs.send("service_v50tiwg", "template_xn5klag", {
         to_name: name,
         from_name: email,
