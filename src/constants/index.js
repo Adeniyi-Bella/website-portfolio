@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  netflix,
+  linkedin
 } from "../assets";
 
 export const navLinks = [
@@ -53,10 +55,10 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -116,55 +118,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Engineer",
+    company_name: "DPS Munich Germany",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I worked with a cross-functional digital product team (UI/UX, PO, AI) in the role of a software engineer to develop a product for the German Red Cross (DRK).",
+      "Implemented responsive design and ensuring cross-browser compatibility.",
+      "Participated in code reviews and provided constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "junior Developer/ bim digitization",
+    company_name: "Wolff & Mueller GMbh , Stuttgart, Germany ",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Dec 2021 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Maintained, expanded and rewrote the codebase of the DESITE product (a product for managing 3D building models).",
+      "Migrated The codebase from pure Vanilla JS/jQuery to React/Vue.",
+      "Good code writing principles such as KISS, DRY, YAGNI were implemented, and adherence to coding standards and regular code reviews ensured.",
+      "Product performance in the development and production phases was improved by bundling multiple ES6 modules with Vite, which uses browser caching to achieve faster build and reload times.",
+      "JSON and XML data were retrieved from a REST API endpoint and integrated into existing UI frameworks to improve the user experience.",
+      "Designed and implemented an algorithm that tracks the usage of all applications by employees, leading to improved problem prioritization as we had a better overview of which applications were very popular among our users.",
+      "Multiple processes were optimized by reducing the number of clicks required to complete a task, improving the workflow and employee productivity by 20%."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Solutions Architect/ Consultant",
+    company_name: "CONXAI Technologies Munich, Germany",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2021 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked in a consultancy role at a Contech startup with a group of AI engineers.",
+      "The main task was to describe/break down construction activities in simple sentences for the AI engineers.",
+      "Contributed to the django backend codebase by creating api endpoints as the product expanded.",
+      "Participated in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Research Assistant/ Software development",
+    company_name: "Technical university Munich, TUM, Germany",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Oct 2020 - Oct 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked with a group of Ph.D. students on 3D scanning of buildings and the application of AI in construction.",
+      "The main task was to create Python scripts based on the objectives of each research, e.g., classification of construction elements using machine learning, optimization of scan positions in SCAN to BIM preparation.",
     ],
   },
 ];
@@ -172,59 +174,67 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Adeniyi is a good team player. I worked with him on a daily basis and I learnt a lot from him on how to apply best practices in software development.",
+    name: "Valentin Zwerger",
+    designation: "BIM Manager/ Product owner",
+    company: "Wolff and Mueller",
+    image: "https://media.licdn.com/dms/image/D4D03AQHOYewjhuTN_w/profile-displayphoto-shrink_100_100/0/1675325585128?e=1700092800&v=beta&t=BIrg9tfAcE1ZicPIO-au3NPfQ1_-4GT_8kYlzZvdrf0",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Adeniyi was very important for our team. His ability to solve complex problems with his coding skills really improved the teams productivity",
+    name: "Christian Hänsele",
+    designation: "Teamleader Digitilization",
+    company: "Wolff and Mueller",
+    image: "https://media.licdn.com/dms/image/D4E03AQGWiLhqBb0Xfg/profile-displayphoto-shrink_100_100/0/1682160577683?e=1700092800&v=beta&t=ZpVx6fvlINBXqMUQTloKL6iX78WvMoV-jZnPwEmq-pg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Adeniyi is a very honest and down to earth person. His software skills combined with his background in construction helped us to improve the quality of our AI",
+    name: "Dr Krishna Sridhar",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "CONXAI",
+    image: "https://media.licdn.com/dms/image/D4D03AQF6DL7ZsEcl1g/profile-displayphoto-shrink_100_100/0/1640986480654?e=1700092800&v=beta&t=SVjDIxuqFb03kB4kfHiQjXmYbANxAMATAilTHO5QIls",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Geohilfe",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that aims to assist emergency services operators (e.g Red Cross) in locating patients by listening in to live patient calls, extracting keywords from the conversation (places, landmarks, streets), displaying keywords for the operator to select. Operators can choose which keywords are relevant and these are sent to an AI model. Using the selected keywords, a similarity function computes scores on where the patient is most likely located. The scores are sent back to the operator along with their respective grid information. These scores and grids are displayed for the operator to see. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "websocket",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "docker",
         color: "pink-text-gradient",
+      },
+      {
+        name: "mapbox",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "twillio",
+        color: "green-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Adeniyi-Bella/geohilfe-product",
   },
   {
-    name: "Job IT",
+    name: "Securing API in Java using Spring Security Framework",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Server side application that leverages the Spring Security Framework to ensure robust API protection in Java, enhancing secure data transactions, user authentication, and safeguarding endpoints against potential threats.",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
@@ -232,17 +242,21 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "springboot",
         color: "pink-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "blue-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Adeniyi-Bella/spring-api-with-security",
   },
   {
-    name: "Trip Guide",
+    name: "Rest API with typescript",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Server side application built with TypeScript, offering a streamlined REST API, containerized with docker, seamlessly deployed and hosted on AWS for scalable and efficient cloud-based data access.",
     tags: [
       {
         name: "nextjs",
@@ -258,8 +272,65 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Adeniyi-Bella/Rest-API-with-Typescript",
   },
+
+  {
+    name: "Linkedin Clone",
+    description:
+      "Web platform inspired by LinkedIn, crafted using cutting-edge technologies such as React and Next.js, backed by MongoDB, delivering a modern, responsive, and interactive professional networking experience.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: linkedin,
+    source_code_link: "https://github.com/Adeniyi-Bella/Linkedin-clone",
+  },
+
+  {
+    name: "Netflix Clone",
+    description:
+      "Web platform inspired by Netflix, crafted using cutting-edge technologies such as React and Next.js, backed by MongoDB, delivering a modern, responsive, and interactive professional networking experience.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react hook form",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: netflix,
+    source_code_link: "https://github.com/Adeniyi-Bella/Netflix-streaming",
+  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
