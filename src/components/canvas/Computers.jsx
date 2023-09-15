@@ -67,19 +67,19 @@ const ComputersCanvas = () => {
   return (
     // The Canvas component from react-three-fiber library
     <Canvas
-      frameloop="demand"
-      shadows
-      dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
-    >
+      frameloop="demand"                  // Determines how the animation loop runs. "demand" means it only re-renders when needed.
+      shadows                             // Enables shadow mapping. This lets objects cast and receive shadows.
+      dpr={[1, 2]}                        // Device Pixel Ratio. Determines the resolution of the renderer on HiDPI displays. This setting uses a range from 1 (low resolution) to 2 (high resolution).
+      camera={{ position: [20, 3, 5], fov: 25 }}  // Camera properties. Sets the initial position of the camera to [20, 3, 5] and its Field of View (fov) to 25 degrees.
+      gl={{ preserveDrawingBuffer: true }}        // WebGL context attributes. 'preserveDrawingBuffer' when true, the drawings buffer is not cleared and can be presented multiple times.
+      >
       {/* // Suspense component to show a fallback (CanvasLoader) while the 3D model loads */}
       <Suspense fallback={<CanvasLoader />}>
         {/* // Controls to allow user interaction with the 3D model */}
         <OrbitControls
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
+          maxPolarAngle={Math.PI}
+          minPolarAngle={0}
         />
         {/* // Render the Computers component with the `isMobile` prop */}
         <Computers isMobile={isMobile} />
