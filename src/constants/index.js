@@ -1,7 +1,7 @@
 import {
   mobile,
   backend,
-  creator,
+  // creator,
   web,
   javascript,
   typescript,
@@ -125,24 +125,29 @@ const experiences = [
     date: "April 2023 - August 2023",
     points: [
       "I worked with a cross-functional digital product team (UI/UX, PO, AI) in the role of a software engineer to develop a product for the German Red Cross (DRK).",
-      "Implemented responsive design and ensuring cross-browser compatibility.",
-      "Participated in code reviews and provided constructive feedback to other developers.",
+      "Created a technical roadmap for the product with other team members.",
+      "Coded the Design team’s pixel-perfect prototypes to spec.",
+      "Working according to the Scrum framework (backlog, prioritisation, planning, daily stand-ups, reviews, retrospectives) .",
+      "Prepared and conducted problem interviews.",
+      "Iteratively building technical MVP"
     ],
   },
   {
-    title: "junior Developer/ bim digitization",
+    title: "Junior Developer/ Intermediate Software Developer",
     company_name: "Wolff & Mueller GMbh , Stuttgart, Germany ",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Dec 2021 - March 2023",
     points: [
-      "Maintained, expanded and rewrote the codebase of the DESITE product (a product for managing 3D building models).",
-      "Migrated The codebase from pure Vanilla JS/jQuery to React/Vue.",
-      "Good code writing principles such as KISS, DRY, YAGNI were implemented, and adherence to coding standards and regular code reviews ensured.",
-      "Product performance in the development and production phases was improved by bundling multiple ES6 modules with Vite, which uses browser caching to achieve faster build and reload times.",
-      "JSON and XML data were retrieved from a REST API endpoint and integrated into existing UI frameworks to improve the user experience.",
-      "Designed and implemented an algorithm that tracks the usage of all applications by employees, leading to improved problem prioritization as we had a better overview of which applications were very popular among our users.",
-      "Multiple processes were optimized by reducing the number of clicks required to complete a task, improving the workflow and employee productivity by 20%."
+      "Started as a junior developer and later transitioned into an intermediate developer.",
+      "Allocated development tasks within the team.",
+      "Along with the product owner, helped the development team operate smoothly during sprints.",
+      "Worked within sprints and planned the scope of work each week with the team.",
+      "Participated in the developers hiring process for the team.",
+      "Help developed and oversee HTML, CSS, JS, React, Bootstrap, Typescript code, and/or any other relevant language as required by the project.",
+      "Made recommendations for the best practices of technical implementation and coding.",
+      "Working according to the Scrum framework (backlog, prioritisation, planning, daily stand-ups, reviews, retrospectives).",
+      "Provide guidance for the Dev team and help junior developers overcome blockers."
     ],
   },
   {
