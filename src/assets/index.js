@@ -22,11 +22,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/tum.png";
-import shopify from "./company/conxai.jpeg";
-import starbucks from "./company/dps.png";
+import shopify from "./company/amazon.png";
+import viu from "./company/viu.jpg";
+import islkocher from "./company/islkocher.jpg";
 import tesla from "./company/wolffmueller.png";
 
 import carrent from "./geohilfe.png";
+import trainingApp from "./trainingApp.png";
 import jobit from "./spring.jpeg";
 import tripguide from "./typescript.png";
 import netflix from "./netflix.png";
@@ -56,9 +58,11 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
+  islkocher,
+  viu,
   tesla,
   carrent,
+  trainingApp,
   jobit,
   tripguide,
   netflix,
